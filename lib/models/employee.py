@@ -128,7 +128,7 @@ class Employee:
     @classmethod
     def create(cls, name, job_title, department_id):
         """ Initialize a new Employee instance and save the object to the database """
-        employee = cls(name, job_title, department_id)
+        employee = cls(name, job_title,department_id)
         employee.save()
         return employee
 
